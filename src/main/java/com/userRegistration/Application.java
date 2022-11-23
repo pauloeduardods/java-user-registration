@@ -1,13 +1,13 @@
-package com.userRegistration.User.Registration;
+package com.userRegistration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserRegistrationApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserRegistrationApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
